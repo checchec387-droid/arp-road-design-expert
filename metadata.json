@@ -1,0 +1,6 @@
+{
+  "name": "ARP CEREMA - Ingénierie Routière & Conception Géométrique",
+  "description": "Application professionnelle d'études routières selon le guide ARP du Cerema (2022) : dévers, clothoïdes, surlargeurs, profils géométriques, conformité et rapports techniques.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,446 @@
+{
+  "users": [
+    {
+      "id": "user-root-admin",
+      "name": "Administrateur Principal",
+      "email": "youcefyoucefbelallia@gmail.com",
+      "username": "admin",
+      "jobTitle": "Expert",
+      "role": "SUPERADMIN",
+      "status": "APPROVED",
+      "passwordHash": "ba0a3b7e493eabeb0ead2480467057a5:2d1cdfc1389033312dfbb69fbd93d8328c923ae80b5a414bbb7cde1f55628b9452e46c209612a66b7a3b4785afba3bfdc996510c692108775174a8330f1637ad",
+      "organization": "Bureau d’Études ARP - Administration Centrale",
+      "createdAt": "2026-10-13T12:11:13.819Z",
+      "updatedAt": "2026-10-14T10:39:45.410Z",
+      "lastLoginAt": "2026-10-14T10:39:45.410Z"
+    },
+    {
+      "id": "user-admin-checchec387",
+      "name": "Administrateur Principal",
+      "email": "checchec387@gmail.com",
+      "username": "checchec387",
+      "jobTitle": "Expert",
+      "role": "SUPERADMIN",
+      "status": "APPROVED",
+      "passwordHash": "d3547ac9691a53d447842ff295d57f44:41cb82e6512978dac3b343a826f104e7f069cbace8f03ad3ad6091203d3d48f6e839a2f92dab2145b6b4c5e27015ee70d026d48c42fdb497e52fa2b1cc0c83aa",
+      "organization": "Bureau d’Études ARP - Direction Technique",
+      "createdAt": "2026-10-14T02:50:00.000Z",
+      "updatedAt": "2026-10-14T10:39:39.194Z",
+      "lastLoginAt": "2026-10-14T10:39:39.194Z"
+    },
+    {
+      "id": "user-1791893502721-6a2fa0",
+      "name": "Ingénieur Test",
+      "email": "test@etudes.fr",
+      "username": "itest",
+      "jobTitle": "Ingénieur",
+      "role": "ENGINEER",
+      "status": "APPROVED",
+      "passwordHash": "8c7d04df8dce24ce3a905f2836b7d98c:941e69a58123f677c713b492258d05fd30720ac4495cb23041baed6b20a4ead09a355d1564234032408c459a8aacf4f8f59e98baa6b7355594dcf462111e15bc",
+      "organization": "BET Test",
+      "createdAt": "2026-10-13T12:11:42.721Z",
+      "updatedAt": "2026-10-13T12:13:08.636Z",
+      "lastLoginAt": "2026-10-13T12:13:08.636Z"
+    },
+    {
+      "id": "user-1791972059413-45083c",
+      "name": "youcef",
+      "email": "youcefbelalia@gmail.com",
+      "username": "youcefbelalia",
+      "jobTitle": "Ingénieur",
+      "role": "ENGINEER",
+      "status": "PENDING",
+      "passwordHash": "41a78ce02b5e8821f3ef91c8a2b645c2:5e02cb2e0f1ac5548dc586d70913b831dc62281bb29d0837f5c6ac81d43c4958bca85f6fb4b12352ecde9568930db6df3532174503e2262750f07d8304569eb8",
+      "organization": "Bureau d’Études",
+      "createdAt": "2026-10-14T10:00:59.413Z",
+      "updatedAt": "2026-10-14T10:00:59.413Z"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "66361a25dce0b16310f8a54cb797e04a11eea1884d11bd89f8e48d7e8bb063a9",
+      "userId": "user-root-admin",
+      "expiresAt": 1792498341629,
+      "createdAt": "2026-10-13T12:12:21.629Z"
+    },
+    {
+      "token": "c0317854fc635b8397a45140003cba27bf08eeba81e23c2ad023d2004e8c4585",
+      "userId": "user-1791893502721-6a2fa0",
+      "expiresAt": 1792498388636,
+      "createdAt": "2026-10-13T12:13:08.636Z"
+    },
+    {
+      "token": "d6c6ff81fc69d6eba86d3184f8ce095eb8843962efac723cadbd6daf07a5fdaa",
+      "userId": "user-root-admin",
+      "expiresAt": 1792498635899,
+      "createdAt": "2026-10-13T12:17:15.899Z"
+    },
+    {
+      "token": "eb9592f752d255023aa023dd9e1603938317ddd76c9f9a9458cef714864a0f8f",
+      "userId": "user-root-admin",
+      "expiresAt": 1792498696280,
+      "createdAt": "2026-10-13T12:18:16.280Z"
+    },
+    {
+      "token": "f03f52a750c47613751ebda35dd5170bafc864e7f3558b7c328513fed744be95",
+      "userId": "user-admin-checchec387",
+      "expiresAt": 1792576381361,
+      "createdAt": "2026-10-14T09:53:01.361Z"
+    },
+    {
+      "token": "68c5543c46b279ce7622ffc8b06f0357bfa66f4f36108d720108fddb915fbf04",
+      "userId": "user-root-admin",
+      "expiresAt": 1792576389605,
+      "createdAt": "2026-10-14T09:53:09.605Z"
+    },
+    {
+      "token": "d20cff22d84d32975ac7387f04f9b475dc95a18553a9b94f22b518155740e7e4",
+      "userId": "user-admin-checchec387",
+      "expiresAt": 1792576401470,
+      "createdAt": "2026-10-14T09:53:21.470Z"
+    },
+    {
+      "token": "1e5298aa383c9cbebb0778568e024a39471e7b95136ca9bfe8aebf2a60d1daf8",
+      "userId": "user-root-admin",
+      "expiresAt": 1792576758543,
+      "createdAt": "2026-10-14T09:59:18.543Z"
+    },
+    {
+      "token": "76e39df5e1c426870e926058d439e04daeaee898793f590f1e96ab32591b4732",
+      "userId": "user-root-admin",
+      "expiresAt": 1792576887687,
+      "createdAt": "2026-10-14T10:01:27.687Z"
+    },
+    {
+      "token": "ee6824864de3b89cba699a2a5caf175136d9214d76228e89a31a6dc2fdf6514e",
+      "userId": "user-root-admin",
+      "expiresAt": 1792578479671,
+      "createdAt": "2026-10-14T10:27:59.671Z"
+    },
+    {
+      "token": "458cc5bc2c2f046cba591e70611768096d2b09529db7caf7c30ce731fea3eaee",
+      "userId": "user-admin-checchec387",
+      "expiresAt": 1792579175583,
+      "createdAt": "2026-10-14T10:39:35.583Z"
+    },
+    {
+      "token": "41567a2e3c756b3fa996449057f88695776ec85ff1be939748cab58780125041",
+      "userId": "user-admin-checchec387",
+      "expiresAt": 1792579179195,
+      "createdAt": "2026-10-14T10:39:39.195Z"
+    },
+    {
+      "token": "e5a20c9ac7cd4956db3b678fa32a2c5646e306834914507605e346ab37242900",
+      "userId": "user-root-admin",
+      "expiresAt": 1792579185411,
+      "createdAt": "2026-10-14T10:39:45.411Z"
+    }
+  ],
+  "emailLogs": [
+    {
+      "id": "mail-1791974405315-bbcd56c0",
+      "to": "dupont@consulting.fr",
+      "subject": "[ARP] Votre accès a été approuvé par l'administrateur",
+      "text": "Bonjour Consultant Dupont,\n\nVotre demande d'accès à l'application professionnelle de calculs routiers ARP a été validée par l'administrateur.\n\nVous pouvez désormais vous connecter à l'adresse suivante :\nhttps://ais-dev-fpsbukxv2mulj2z2xfs52r-32263270254.us-west1.run.app?view=login\n\nIdentifiant : dupont@consulting.fr (ou dupont)\n\nCordialement,\nBureau d'Études ARP",
+      "html": "\n      <div style=\"font-family: Arial, sans-serif; line-height: 1.6; color: #1e293b; max-width: 600px; margin: 0 auto; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden;\">\n        <div style=\"background-color: #0f172a; color: white; padding: 20px; text-align: center;\">\n          <h2 style=\"margin: 0; font-size: 18px;\">APPLICATION ROUTIÈRE ARP</h2>\n          <p style=\"margin: 5px 0 0 0; font-size: 12px; color: #94a3b8;\">Guide Cerema ARP (Édition Août 2022)</p>\n        </div>\n        <div style=\"padding: 24px;\">\n          <h3 style=\"color: #15803d; margin-top: 0;\">Compte validé avec succès !</h3>\n          <p>Bonjour <strong>Consultant Dupont</strong>,</p>\n          <p>Nous avons le plaisir de vous informer que votre demande d'accès à la plateforme de calculs routiers et dimensionnement géométrique ARP a été <strong>approuvée</strong> par l'administrateur.</p>\n          <p>Vous avez désormais accès à l'ensemble des modules d'études : dévers, clothoïdes, surlargeurs, profils géométriques et contrôles réglementaires.</p>\n\n          <div style=\"text-align: center; margin: 30px 0;\">\n            <a href=\"https://ais-dev-fpsbukxv2mulj2z2xfs52r-32263270254.us-west1.run.app?view=login\" style=\"background-color: #15803d; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-size: 13px; font-weight: bold; display: inline-block;\">\n              Se connecter à l'application ARP\n            </a>\n          </div>\n          <p style=\"font-size: 12px; color: #64748b;\">Si vous rencontrez des difficultés de connexion, vous pouvez contacter l'administrateur à l'adresse : youcefyoucefbelallia@gmail.com.</p>\n        </div>\n      </div>\n    ",
+      "sentAt": "2026-10-14T10:40:05.315Z",
+      "status": "OUTBOX_SIMULATED",
+      "actionType": "ACCOUNT_APPROVED"
+    },
+    {
+      "id": "mail-1791974397785-95ba66d7",
+      "to": "checchec387@gmail.com",
+      "subject": "[ARP] Nouvelle demande d’accès : Consultant Dupont (Expert)",
+      "text": "Bonjour Administrateur,\n\nUne nouvelle demande d'accès a été soumise sur la plateforme ARP :\n\n- Nom : Consultant Dupont\n- Emploi / Profil : Expert\n- E-mail : dupont@consulting.fr\n- Organisme : Cabinet Audit\n- Date : 14/10/2026 10:39:57\n\nVeuillez vous connecter à votre espace d'administration pour accepter ou refuser cette demande :\nhttps://ais-dev-fpsbukxv2mulj2z2xfs52r-32263270254.us-west1.run.app?module=admin-users\n\nCordialement,\nSystème de Gestion Sécurisé ARP",
+      "html": "\n      <div style=\"font-family: Arial, sans-serif; line-height: 1.6; color: #1e293b; max-width: 600px; margin: 0 auto; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden;\">\n        <div style=\"background-color: #0f172a; color: white; padding: 20px; text-align: center;\">\n          <h2 style=\"margin: 0; font-size: 18px; letter-spacing: 0.5px;\">APPLICATION ROUTIÈRE ARP — BUREAU D’ÉTUDES</h2>\n          <p style=\"margin: 5px 0 0 0; font-size: 12px; color: #94a3b8;\">Guide Cerema ARP (Édition Août 2022)</p>\n        </div>\n        <div style=\"padding: 24px;\">\n          <h3 style=\"color: #0f172a; margin-top: 0;\">Nouvelle demande d’accès utilisateur</h3>\n          <p>Bonjour Administrateur,</p>\n          <p>Un utilisateur vient de s'inscrire et sollicite l'accès aux modules techniques de calculs routiers :</p>\n          \n          <table style=\"width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 13px;\">\n            <tr style=\"border-bottom: 1px solid #e2e8f0;\">\n              <td style=\"padding: 8px 0; color: #64748b; font-weight: bold; width: 140px;\">Nom complet :</td>\n              <td style=\"padding: 8px 0; color: #0f172a; font-weight: bold;\">Consultant Dupont</td>\n            </tr>\n            <tr style=\"border-bottom: 1px solid #e2e8f0;\">\n              <td style=\"padding: 8px 0; color: #64748b; font-weight: bold;\">Emploi / Profil :</td>\n              <td style=\"padding: 8px 0; color: #0284c7; font-weight: bold;\">Expert</td>\n            </tr>\n            <tr style=\"border-bottom: 1px solid #e2e8f0;\">\n              <td style=\"padding: 8px 0; color: #64748b; font-weight: bold;\">Adresse e-mail :</td>\n              <td style=\"padding: 8px 0; color: #0f172a;\">dupont@consulting.fr</td>\n            </tr>\n            <tr style=\"border-bottom: 1px solid #e2e8f0;\">\n              <td style=\"padding: 8px 0; color: #64748b; font-weight: bold;\">Bureau / Organisme :</td>\n              <td style=\"padding: 8px 0; color: #0f172a;\">Cabinet Audit</td>\n            </tr>\n            <tr>\n              <td style=\"padding: 8px 0; color: #64748b; font-weight: bold;\">Statut actuel :</td>\n              <td style=\"padding: 8px 0; color: #b45309; font-weight: bold;\">En attente de votre approbation</td>\n            </tr>\n          </table>\n\n          <div style=\"text-align: center; margin: 30px 0;\">\n            <a href=\"https://ais-dev-fpsbukxv2mulj2z2xfs52r-32263270254.us-west1.run.app?module=admin-users\" style=\"background-color: #0f172a; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-size: 13px; font-weight: bold; display: inline-block;\">\n              Accéder à l'espace administrateur pour accepter ou refuser\n            </a>\n          </div>\n          <p style=\"font-size: 12px; color: #64748b;\">Conformément à la politique de sécurité, cet utilisateur n'aura accès à aucun calcul ni module tant que vous n'aurez pas approuvé son inscription.</p>\n        </div>\n      </div>\n    ",
+      "sentAt": "2026-10-14T10:39:57.786Z",
+      "status": "OUTBOX_SIMULATED",
+      "actionType": "ADMIN_APPROVAL_REQUEST"
+    },
+    {
+      "id": "mail-1791974397784-e66a7acf",
+      "to": "youcefyoucefbelallia@gmail.com",
+      "subject": "[ARP] Nouvelle demande d’accès : Consultant Dupont (Expert)",
+      "text": "Bonjour Administrateur,\n\nUne nouvelle demande d'accès a été soumise sur la plateforme ARP :\n\n- Nom : Consultant Dupont\n- Emploi / Profil : Expert\n- E-mail : dupont@consulting.fr\n- Organisme : Cabinet Audit\n- Date : 14/10/2026 10:39:57\n\nVeuillez vous connecter à votre espace d'administration pour accepter ou refuser cette demande :\nhttps://ais-dev-fpsbukxv2mulj2z2xfs52r-32263270254.us-west1.run.app?module=admin-users\n\nCordialement,\nSystème de Gestion Sécurisé ARP",
+      "html": "\n      <div style=\"font-family: Arial, sans-serif; line-height: 1.6; color: #1e293b; max-width: 600px; margin: 0 auto; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden;\">\n        <div style=\"background-color: #0f172a; color: white; padding: 20px; text-align: center;\">\n          <h2 style=\"margin: 0; font-size: 18px; letter-spacing: 0.5px;\">APPLICATION ROUTIÈRE ARP — BUREAU D’ÉTUDES</h2>\n          <p style=\"margin: 5px 0 0 0; font-size: 12px; color: #94a3b8;\">Guide Cerema ARP (Édition Août 2022)</p>\n        </div>\n        <div style=\"padding: 24px;\">\n          <h3 style=\"color: #0f172a; margin-top: 0;\">Nouvelle demande d’accès utilisateur</h3>\n          <p>Bonjour Administrateur,</p>\n          <p>Un utilisateur vient de s'inscrire et sollicite l'accès aux modules techniques de calculs routiers :</p>\n          \n          <table style=\"width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 13px;\">\n            <tr style=\"border-bottom: 1px solid #e2e8f0;\">\n              <td style=\"padding: 8px 0; color: #64748b; font-weight: bold; width: 140px;\">Nom complet :</td>\n              <td style=\"padding: 8px 0; color: #0f172a; font-weight: bold;\">Consultant Dupont</td>\n            </tr>\n            <tr style=\"border-bottom: 1px solid #e2e8f0;\">\n              <td style=\"padding: 8px 0; color: #64748b; font-weight: bold;\">Emploi / Profil :</td>\n              <td style=\"padding: 8px 0; color: #0284c7; font-weight: bold;\">Expert</td>\n            </tr>\n            <tr style=\"border-bottom: 1px solid #e2e8f0;\">\n              <td style=\"padding: 8px 0; color: #64748b; font-weight: bold;\">Adresse e-mail :</td>\n              <td style=\"padding: 8px 0; color: #0f172a;\">dupont@consulting.fr</td>\n            </tr>\n            <tr style=\"border-bottom: 1px solid #e2e8f0;\">\n              <td style=\"padding: 8px 0; color: #64748b; font-weight: bold;\">Bureau / Organisme :</td>\n              <td style=\"padding: 8px 0; color: #0f172a;\">Cabinet Audit</td>\n            </tr>\n            <tr>\n              <td style=\"padding: 8px 0; color: #64748b; font-weight: bold;\">Statut actuel :</td>\n              <td style=\"padding: 8px 0; color: #b45309; font-weight: bold;\">En attente de votre approbation</td>\n            </tr>\n          </table>\n\n          <div style=\"text-align: center; margin: 30px 0;\">\n            <a href=\"https://ais-dev-fpsbukxv2mulj2z2xfs52r-32263270254.us-west1.run.app?module=admin-users\" style=\"background-color: #0f172a; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-size: 13px; font-weight: bold; display: inline-block;\">\n              Accéder à l'espace administrateur pour accepter ou refuser\n            </a>\n          </div>\n          <p style=\"font-size: 12px; color: #64748b;\">Conformément à la politique de sécurité, cet utilisateur n'aura accès à aucun calcul ni module tant que vous n'aurez pas approuvé son inscription.</p>\n        </div>\n      </div>\n    ",
+      "sentAt": "2026-10-14T10:39:57.784Z",
+      "status": "OUTBOX_SIMULATED",
+      "actionType": "ADMIN_APPROVAL_REQUEST"
+    },
+    {
+      "id": "mail-1791974382709-bac8a667",
+      "to": "youcefyoucefbelallia@gmail.com",
+      "subject": "[ARP] Réinitialisation de votre mot de passe",
+      "text": "Bonjour Administrateur Principal,\n\nVous avez demandé la réinitialisation de votre mot de passe pour l'application ARP.\n\nVeuillez cliquer sur le lien sécurisé suivant (valide pendant 1 heure) :\nhttps://ais-dev-fpsbukxv2mulj2z2xfs52r-32263270254.us-west1.run.app?view=reset-password&token=197d5fe78fafd6212216b861ba002274ce5d82f434d05bb9d60e9f8e1519cc0a\n\nSi vous n'êtes pas à l'origine de cette demande, veuillez ignorer ce message.\n\nCordialement,\nSécurité ARP",
+      "html": "\n      <div style=\"font-family: Arial, sans-serif; line-height: 1.6; color: #1e293b; max-width: 600px; margin: 0 auto; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden;\">\n        <div style=\"background-color: #0f172a; color: white; padding: 20px; text-align: center;\">\n          <h2 style=\"margin: 0; font-size: 18px;\">APPLICATION ROUTIÈRE ARP</h2>\n          <p style=\"margin: 5px 0 0 0; font-size: 12px; color: #94a3b8;\">Sécurité & Réinitialisation de Mot de Passe</p>\n        </div>\n        <div style=\"padding: 24px;\">\n          <h3 style=\"color: #0f172a; margin-top: 0;\">Réinitialisation de votre mot de passe</h3>\n          <p>Bonjour <strong>Administrateur Principal</strong>,</p>\n          <p>Une demande de réinitialisation de mot de passe a été initiée pour votre compte (youcefyoucefbelallia@gmail.com).</p>\n          <p>Cliquez sur le bouton ci-dessous pour définir un nouveau mot de passe sécurisé :</p>\n\n          <div style=\"text-align: center; margin: 30px 0;\">\n            <a href=\"https://ais-dev-fpsbukxv2mulj2z2xfs52r-32263270254.us-west1.run.app?view=reset-password&token=197d5fe78fafd6212216b861ba002274ce5d82f434d05bb9d60e9f8e1519cc0a\" style=\"background-color: #0f172a; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-size: 13px; font-weight: bold; display: inline-block;\">\n              Réinitialiser mon mot de passe\n            </a>\n          </div>\n\n          <p style=\"font-size: 12px; color: #64748b;\">Ce lien à usage unique expirera dans <strong>60 minutes</strong>. Si vous n'êtes pas l'auteur de cette demande, votre compte reste protégé et aucune modification n'a été effectuée.</p>\n          <p style=\"font-size: 11px; color: #94a3b8; word-break: break-all;\">Lien direct : https://ais-dev-fpsbukxv2mulj2z2xfs52r-32263270254.us-west1.run.app?view=reset-password&token=197d5fe78fafd6212216b861ba002274ce5d82f434d05bb9d60e9f8e1519cc0a</p>\n        </div>\n      </div>\n    ",
+      "sentAt": "2026-10-14T10:39:42.709Z",
+      "status": "OUTBOX_SIMULATED",
+      "actionType": "PASSWORD_RESET"
+    },
+    {
+      "id": "mail-1791974372604-72759619",
+      "to": "checchec387@gmail.com",
+      "subject": "[ARP] Réinitialisation de votre mot de passe",
+      "text": "Bonjour Administrateur Principal,\n\nVous avez demandé la réinitialisation de votre mot de passe pour l'application ARP.\n\nVeuillez cliquer sur le lien sécurisé suivant (valide pendant 1 heure) :\nhttps://ais-dev-fpsbukxv2mulj2z2xfs52r-32263270254.us-west1.run.app?view=reset-password&token=f6febecfe8e823225174171bf8e544a3b59656802b40c2af0bef234ea81ac530\n\nSi vous n'êtes pas à l'origine de cette demande, veuillez ignorer ce message.\n\nCordialement,\nSécurité ARP",
+      "html": "\n      <div style=\"font-family: Arial, sans-serif; line-height: 1.6; color: #1e293b; max-width: 600px; margin: 0 auto; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden;\">\n        <div style=\"background-color: #0f172a; color: white; padding: 20px; text-align: center;\">\n          <h2 style=\"margin: 0; font-size: 18px;\">APPLICATION ROUTIÈRE ARP</h2>\n          <p style=\"margin: 5px 0 0 0; font-size: 12px; color: #94a3b8;\">Sécurité & Réinitialisation de Mot de Passe</p>\n        </div>\n        <div style=\"padding: 24px;\">\n          <h3 style=\"color: #0f172a; margin-top: 0;\">Réinitialisation de votre mot de passe</h3>\n          <p>Bonjour <strong>Administrateur Principal</strong>,</p>\n          <p>Une demande de réinitialisation de mot de passe a été initiée pour votre compte (checchec387@gmail.com).</p>\n          <p>Cliquez sur le bouton ci-dessous pour définir un nouveau mot de passe sécurisé :</p>\n\n          <div style=\"text-align: center; margin: 30px 0;\">\n            <a href=\"https://ais-dev-fpsbukxv2mulj2z2xfs52r-32263270254.us-west1.run.app?view=reset-password&token=f6febecfe8e823225174171bf8e544a3b59656802b40c2af0bef234ea81ac530\" style=\"background-color: #0f172a; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-size: 13px; font-weight: bold; display: inline-block;\">\n              Réinitialiser mon mot de passe\n            </a>\n          </div>\n\n          <p style=\"font-size: 12px; color: #64748b;\">Ce lien à usage unique expirera dans <strong>60 minutes</strong>. Si vous n'êtes pas l'auteur de cette demande, votre compte reste protégé et aucune modification n'a été effectuée.</p>\n          <p style=\"font-size: 11px; color: #94a3b8; word-break: break-all;\">Lien direct : https://ais-dev-fpsbukxv2mulj2z2xfs52r-32263270254.us-west1.run.app?view=reset-password&token=f6febecfe8e823225174171bf8e544a3b59656802b40c2af0bef234ea81ac530</p>\n        </div>\n      </div>\n    ",
+      "sentAt": "2026-10-14T10:39:32.604Z",
+      "status": "OUTBOX_SIMULATED",
+      "actionType": "PASSWORD_RESET"
+    },
+    {
+      "id": "mail-1791972059481-60c19e3c",
+      "to": "youcefyoucefbelallia@gmail.com",
+      "subject": "[ARP] Nouvelle demande d’accès reçue : youcef",
+      "text": "Bonjour Administrateur,\n\nUn nouvel utilisateur vient de demander l'accès à l'application ARP :\n\n- Nom : youcef\n- E-mail : youcefbelalia@gmail.com\n- Organisme : Bureau d’Études\n- Date : 14/10/2026 10:00:59\n\nVeuillez vous connecter à l'espace d'administration pour approuver ou refuser cette demande :\nhttps://ais-dev-fpsbukxv2mulj2z2xfs52r-32263270254.us-west1.run.app?module=admin-users\n\nCordialement,\nSystème de Gestion ARP",
+      "html": "\n      <div style=\"font-family: Arial, sans-serif; line-height: 1.6; color: #1e293b; max-width: 600px; margin: 0 auto; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden;\">\n        <div style=\"background-color: #0f172a; color: white; padding: 20px; text-align: center;\">\n          <h2 style=\"margin: 0; font-size: 18px; letter-spacing: 0.5px;\">APPLICATION ROUTIÈRE ARP — BUREAU D’ÉTUDES</h2>\n          <p style=\"margin: 5px 0 0 0; font-size: 12px; color: #94a3b8;\">Guide Cerema ARP (Édition Août 2022)</p>\n        </div>\n        <div style=\"padding: 24px;\">\n          <h3 style=\"color: #0f172a; margin-top: 0;\">Nouvelle demande d’accès utilisateur</h3>\n          <p>Bonjour M. l'Administrateur,</p>\n          <p>Un ingénieur ou collaborateur vient de créer un compte et sollicite l'accès aux modules de calculs routiers :</p>\n          \n          <table style=\"width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 13px;\">\n            <tr style=\"border-bottom: 1px solid #e2e8f0;\">\n              <td style=\"padding: 8px 0; color: #64748b; font-weight: bold; width: 140px;\">Nom complet :</td>\n              <td style=\"padding: 8px 0; color: #0f172a; font-weight: bold;\">youcef</td>\n            </tr>\n            <tr style=\"border-bottom: 1px solid #e2e8f0;\">\n              <td style=\"padding: 8px 0; color: #64748b; font-weight: bold;\">Adresse e-mail :</td>\n              <td style=\"padding: 8px 0; color: #0f172a;\">youcefbelalia@gmail.com</td>\n            </tr>\n            <tr style=\"border-bottom: 1px solid #e2e8f0;\">\n              <td style=\"padding: 8px 0; color: #64748b; font-weight: bold;\">Identifiant :</td>\n              <td style=\"padding: 8px 0; color: #0f172a;\">ingénieur</td>\n            </tr>\n            <tr style=\"border-bottom: 1px solid #e2e8f0;\">\n              <td style=\"padding: 8px 0; color: #64748b; font-weight: bold;\">Bureau / Organisme :</td>\n              <td style=\"padding: 8px 0; color: #0f172a;\">Bureau d’Études</td>\n            </tr>\n            <tr>\n              <td style=\"padding: 8px 0; color: #64748b; font-weight: bold;\">Statut initial :</td>\n              <td style=\"padding: 8px 0; color: #b45309; font-weight: bold;\">En attente de validation</td>\n            </tr>\n          </table>\n\n          <div style=\"text-align: center; margin: 30px 0;\">\n            <a href=\"https://ais-dev-fpsbukxv2mulj2z2xfs52r-32263270254.us-west1.run.app?module=admin-users\" style=\"background-color: #0f172a; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-size: 13px; font-weight: bold; display: inline-block;\">\n              Accéder au panneau d'administration pour valider\n            </a>\n          </div>\n          <p style=\"font-size: 12px; color: #64748b;\">Conformément à la politique de sécurité, cet utilisateur n'aura accès à aucun calcul ni module tant que vous n'aurez pas approuvé son inscription.</p>\n        </div>\n      </div>\n    ",
+      "sentAt": "2026-10-14T10:00:59.482Z",
+      "status": "OUTBOX_SIMULATED",
+      "actionType": "ADMIN_APPROVAL_REQUEST"
+    },
+    {
+      "id": "mail-1791971933963-fd875372",
+      "to": "youcefyoucefbelallia@gmail.com",
+      "subject": "[ARP] Réinitialisation de votre mot de passe",
+      "text": "Bonjour Administrateur Principal,\n\nVous avez demandé la réinitialisation de votre mot de passe pour l'application ARP.\n\nVeuillez cliquer sur le lien sécurisé suivant (valide pendant 1 heure) :\nhttps://ais-dev-fpsbukxv2mulj2z2xfs52r-32263270254.us-west1.run.app?view=reset-password&token=84a2a6a97e207c9b8f04a7970c641f37afb764bfe0e66a43718a40de439dbb3d\n\nSi vous n'êtes pas à l'origine de cette demande, veuillez ignorer ce message.\n\nCordialement,\nSécurité ARP",
+      "html": "\n      <div style=\"font-family: Arial, sans-serif; line-height: 1.6; color: #1e293b; max-width: 600px; margin: 0 auto; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden;\">\n        <div style=\"background-color: #0f172a; color: white; padding: 20px; text-align: center;\">\n          <h2 style=\"margin: 0; font-size: 18px;\">APPLICATION ROUTIÈRE ARP</h2>\n          <p style=\"margin: 5px 0 0 0; font-size: 12px; color: #94a3b8;\">Sécurité & Réinitialisation de Mot de Passe</p>\n        </div>\n        <div style=\"padding: 24px;\">\n          <h3 style=\"color: #0f172a; margin-top: 0;\">Réinitialisation de votre mot de passe</h3>\n          <p>Bonjour <strong>Administrateur Principal</strong>,</p>\n          <p>Une demande de réinitialisation de mot de passe a été initiée pour votre compte (youcefyoucefbelallia@gmail.com).</p>\n          <p>Cliquez sur le bouton ci-dessous pour définir un nouveau mot de passe sécurisé :</p>\n\n          <div style=\"text-align: center; margin: 30px 0;\">\n            <a href=\"https://ais-dev-fpsbukxv2mulj2z2xfs52r-32263270254.us-west1.run.app?view=reset-password&token=84a2a6a97e207c9b8f04a7970c641f37afb764bfe0e66a43718a40de439dbb3d\" style=\"background-color: #0f172a; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-size: 13px; font-weight: bold; display: inline-block;\">\n              Réinitialiser mon mot de passe\n            </a>\n          </div>\n\n          <p style=\"font-size: 12px; color: #64748b;\">Ce lien à usage unique expirera dans <strong>60 minutes</strong>. Si vous n'êtes pas l'auteur de cette demande, votre compte reste protégé et aucune modification n'a été effectuée.</p>\n          <p style=\"font-size: 11px; color: #94a3b8; word-break: break-all;\">Lien direct : https://ais-dev-fpsbukxv2mulj2z2xfs52r-32263270254.us-west1.run.app?view=reset-password&token=84a2a6a97e207c9b8f04a7970c641f37afb764bfe0e66a43718a40de439dbb3d</p>\n        </div>\n      </div>\n    ",
+      "sentAt": "2026-10-14T09:58:53.963Z",
+      "status": "OUTBOX_SIMULATED",
+      "actionType": "PASSWORD_RESET"
+    },
+    {
+      "id": "mail-1791971596748-bc8a0d8f",
+      "to": "checchec387@gmail.com",
+      "subject": "[ARP] Réinitialisation de votre mot de passe",
+      "text": "Bonjour Administrateur Principal,\n\nVous avez demandé la réinitialisation de votre mot de passe pour l'application ARP.\n\nVeuillez cliquer sur le lien sécurisé suivant (valide pendant 1 heure) :\nhttps://ais-dev-fpsbukxv2mulj2z2xfs52r-32263270254.us-west1.run.app?view=reset-password&token=aa98c34617382c98f70e22c12b63897c679d2beb2871ddb5f380bc884da8f95a\n\nSi vous n'êtes pas à l'origine de cette demande, veuillez ignorer ce message.\n\nCordialement,\nSécurité ARP",
+      "html": "\n      <div style=\"font-family: Arial, sans-serif; line-height: 1.6; color: #1e293b; max-width: 600px; margin: 0 auto; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden;\">\n        <div style=\"background-color: #0f172a; color: white; padding: 20px; text-align: center;\">\n          <h2 style=\"margin: 0; font-size: 18px;\">APPLICATION ROUTIÈRE ARP</h2>\n          <p style=\"margin: 5px 0 0 0; font-size: 12px; color: #94a3b8;\">Sécurité & Réinitialisation de Mot de Passe</p>\n        </div>\n        <div style=\"padding: 24px;\">\n          <h3 style=\"color: #0f172a; margin-top: 0;\">Réinitialisation de votre mot de passe</h3>\n          <p>Bonjour <strong>Administrateur Principal</strong>,</p>\n          <p>Une demande de réinitialisation de mot de passe a été initiée pour votre compte (checchec387@gmail.com).</p>\n          <p>Cliquez sur le bouton ci-dessous pour définir un nouveau mot de passe sécurisé :</p>\n\n          <div style=\"text-align: center; margin: 30px 0;\">\n            <a href=\"https://ais-dev-fpsbukxv2mulj2z2xfs52r-32263270254.us-west1.run.app?view=reset-password&token=aa98c34617382c98f70e22c12b63897c679d2beb2871ddb5f380bc884da8f95a\" style=\"background-color: #0f172a; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-size: 13px; font-weight: bold; display: inline-block;\">\n              Réinitialiser mon mot de passe\n            </a>\n          </div>\n\n          <p style=\"font-size: 12px; color: #64748b;\">Ce lien à usage unique expirera dans <strong>60 minutes</strong>. Si vous n'êtes pas l'auteur de cette demande, votre compte reste protégé et aucune modification n'a été effectuée.</p>\n          <p style=\"font-size: 11px; color: #94a3b8; word-break: break-all;\">Lien direct : https://ais-dev-fpsbukxv2mulj2z2xfs52r-32263270254.us-west1.run.app?view=reset-password&token=aa98c34617382c98f70e22c12b63897c679d2beb2871ddb5f380bc884da8f95a</p>\n        </div>\n      </div>\n    ",
+      "sentAt": "2026-10-14T09:53:16.748Z",
+      "status": "OUTBOX_SIMULATED",
+      "actionType": "PASSWORD_RESET"
+    },
+    {
+      "id": "mail-1791894847076-11eb9990",
+      "to": "youcefyoucefbelallia@gmail.com",
+      "subject": "[ARP] Réinitialisation de votre mot de passe",
+      "text": "Bonjour Administrateur Principal,\n\nVous avez demandé la réinitialisation de votre mot de passe pour l'application ARP.\n\nVeuillez cliquer sur le lien sécurisé suivant (valide pendant 1 heure) :\nhttps://ais-dev-fpsbukxv2mulj2z2xfs52r-32263270254.us-west1.run.app?view=reset-password&token=6628d283f162a3c71c72d62fa73ae46dc3609ef7cc16dee5d3245138212becaa\n\nSi vous n'êtes pas à l'origine de cette demande, veuillez ignorer ce message.\n\nCordialement,\nSécurité ARP",
+      "html": "\n      <div style=\"font-family: Arial, sans-serif; line-height: 1.6; color: #1e293b; max-width: 600px; margin: 0 auto; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden;\">\n        <div style=\"background-color: #0f172a; color: white; padding: 20px; text-align: center;\">\n          <h2 style=\"margin: 0; font-size: 18px;\">APPLICATION ROUTIÈRE ARP</h2>\n          <p style=\"margin: 5px 0 0 0; font-size: 12px; color: #94a3b8;\">Sécurité & Réinitialisation de Mot de Passe</p>\n        </div>\n        <div style=\"padding: 24px;\">\n          <h3 style=\"color: #0f172a; margin-top: 0;\">Réinitialisation de votre mot de passe</h3>\n          <p>Bonjour <strong>Administrateur Principal</strong>,</p>\n          <p>Une demande de réinitialisation de mot de passe a été initiée pour votre compte (youcefyoucefbelallia@gmail.com).</p>\n          <p>Cliquez sur le bouton ci-dessous pour définir un nouveau mot de passe sécurisé :</p>\n\n          <div style=\"text-align: center; margin: 30px 0;\">\n            <a href=\"https://ais-dev-fpsbukxv2mulj2z2xfs52r-32263270254.us-west1.run.app?view=reset-password&token=6628d283f162a3c71c72d62fa73ae46dc3609ef7cc16dee5d3245138212becaa\" style=\"background-color: #0f172a; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-size: 13px; font-weight: bold; display: inline-block;\">\n              Réinitialiser mon mot de passe\n            </a>\n          </div>\n\n          <p style=\"font-size: 12px; color: #64748b;\">Ce lien à usage unique expirera dans <strong>60 minutes</strong>. Si vous n'êtes pas l'auteur de cette demande, votre compte reste protégé et aucune modification n'a été effectuée.</p>\n          <p style=\"font-size: 11px; color: #94a3b8; word-break: break-all;\">Lien direct : https://ais-dev-fpsbukxv2mulj2z2xfs52r-32263270254.us-west1.run.app?view=reset-password&token=6628d283f162a3c71c72d62fa73ae46dc3609ef7cc16dee5d3245138212becaa</p>\n        </div>\n      </div>\n    ",
+      "sentAt": "2026-10-13T12:34:07.076Z",
+      "status": "OUTBOX_SIMULATED",
+      "actionType": "PASSWORD_RESET"
+    },
+    {
+      "id": "mail-1791893822847-428ccce3",
+      "to": "youcefyoucefbelallia@gmail.com",
+      "subject": "[ARP] Réinitialisation de votre mot de passe",
+      "text": "Bonjour Administrateur Principal,\n\nVous avez demandé la réinitialisation de votre mot de passe pour l'application ARP.\n\nVeuillez cliquer sur le lien sécurisé suivant (valide pendant 1 heure) :\nhttps://ais-dev-fpsbukxv2mulj2z2xfs52r-32263270254.us-west1.run.app?view=reset-password&token=0d7f784183424e004d375871e674aa25f1d72a71f55dd68467f798e69a4d07ca\n\nSi vous n'êtes pas à l'origine de cette demande, veuillez ignorer ce message.\n\nCordialement,\nSécurité ARP",
+      "html": "\n      <div style=\"font-family: Arial, sans-serif; line-height: 1.6; color: #1e293b; max-width: 600px; margin: 0 auto; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden;\">\n        <div style=\"background-color: #0f172a; color: white; padding: 20px; text-align: center;\">\n          <h2 style=\"margin: 0; font-size: 18px;\">APPLICATION ROUTIÈRE ARP</h2>\n          <p style=\"margin: 5px 0 0 0; font-size: 12px; color: #94a3b8;\">Sécurité & Réinitialisation de Mot de Passe</p>\n        </div>\n        <div style=\"padding: 24px;\">\n          <h3 style=\"color: #0f172a; margin-top: 0;\">Réinitialisation de votre mot de passe</h3>\n          <p>Bonjour <strong>Administrateur Principal</strong>,</p>\n          <p>Une demande de réinitialisation de mot de passe a été initiée pour votre compte (youcefyoucefbelallia@gmail.com).</p>\n          <p>Cliquez sur le bouton ci-dessous pour définir un nouveau mot de passe sécurisé :</p>\n\n          <div style=\"text-align: center; margin: 30px 0;\">\n            <a href=\"https://ais-dev-fpsbukxv2mulj2z2xfs52r-32263270254.us-west1.run.app?view=reset-password&token=0d7f784183424e004d375871e674aa25f1d72a71f55dd68467f798e69a4d07ca\" style=\"background-color: #0f172a; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-size: 13px; font-weight: bold; display: inline-block;\">\n              Réinitialiser mon mot de passe\n            </a>\n          </div>\n\n          <p style=\"font-size: 12px; color: #64748b;\">Ce lien à usage unique expirera dans <strong>60 minutes</strong>. Si vous n'êtes pas l'auteur de cette demande, votre compte reste protégé et aucune modification n'a été effectuée.</p>\n          <p style=\"font-size: 11px; color: #94a3b8; word-break: break-all;\">Lien direct : https://ais-dev-fpsbukxv2mulj2z2xfs52r-32263270254.us-west1.run.app?view=reset-password&token=0d7f784183424e004d375871e674aa25f1d72a71f55dd68467f798e69a4d07ca</p>\n        </div>\n      </div>\n    ",
+      "sentAt": "2026-10-13T12:17:02.847Z",
+      "status": "OUTBOX_SIMULATED",
+      "actionType": "PASSWORD_RESET"
+    },
+    {
+      "id": "mail-1791893573565-7d95b29e",
+      "to": "test@etudes.fr",
+      "subject": "[ARP] Votre accès a été approuvé par l'administrateur",
+      "text": "Bonjour Ingénieur Test,\n\nVotre demande d'accès à l'application professionnelle de calculs routiers ARP a été validée par l'administrateur.\n\nVous pouvez désormais vous connecter à l'adresse suivante :\nhttps://ais-dev-fpsbukxv2mulj2z2xfs52r-32263270254.us-west1.run.app?view=login\n\nIdentifiant : test@etudes.fr (ou itest)\n\nCordialement,\nBureau d'Études ARP",
+      "html": "\n      <div style=\"font-family: Arial, sans-serif; line-height: 1.6; color: #1e293b; max-width: 600px; margin: 0 auto; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden;\">\n        <div style=\"background-color: #0f172a; color: white; padding: 20px; text-align: center;\">\n          <h2 style=\"margin: 0; font-size: 18px;\">APPLICATION ROUTIÈRE ARP</h2>\n          <p style=\"margin: 5px 0 0 0; font-size: 12px; color: #94a3b8;\">Guide Cerema ARP (Édition Août 2022)</p>\n        </div>\n        <div style=\"padding: 24px;\">\n          <h3 style=\"color: #15803d; margin-top: 0;\">Compte validé avec succès !</h3>\n          <p>Bonjour <strong>Ingénieur Test</strong>,</p>\n          <p>Nous avons le plaisir de vous informer que votre demande d'accès à la plateforme de calculs routiers et dimensionnement géométrique ARP a été <strong>approuvée</strong> par l'administrateur.</p>\n          <p>Vous avez désormais accès à l'ensemble des modules d'études : dévers, clothoïdes, surlargeurs, profils géométriques et contrôles réglementaires.</p>\n\n          <div style=\"text-align: center; margin: 30px 0;\">\n            <a href=\"https://ais-dev-fpsbukxv2mulj2z2xfs52r-32263270254.us-west1.run.app?view=login\" style=\"background-color: #15803d; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-size: 13px; font-weight: bold; display: inline-block;\">\n              Se connecter à l'application ARP\n            </a>\n          </div>\n          <p style=\"font-size: 12px; color: #64748b;\">Si vous rencontrez des difficultés de connexion, vous pouvez contacter l'administrateur à l'adresse : youcefyoucefbelallia@gmail.com.</p>\n        </div>\n      </div>\n    ",
+      "sentAt": "2026-10-13T12:12:53.565Z",
+      "status": "OUTBOX_SIMULATED",
+      "actionType": "ACCOUNT_APPROVED"
+    },
+    {
+      "id": "mail-1791893502797-4a592198",
+      "to": "youcefyoucefbelallia@gmail.com",
+      "subject": "[ARP] Nouvelle demande d’accès reçue : Ingénieur Test",
+      "text": "Bonjour Administrateur,\n\nUn nouvel utilisateur vient de demander l'accès à l'application ARP :\n\n- Nom : Ingénieur Test\n- E-mail : test@etudes.fr\n- Organisme : BET Test\n- Date : 13/10/2026 12:11:42\n\nVeuillez vous connecter à l'espace d'administration pour approuver ou refuser cette demande :\nhttps://ais-dev-fpsbukxv2mulj2z2xfs52r-32263270254.us-west1.run.app?module=admin-users\n\nCordialement,\nSystème de Gestion ARP",
+      "html": "\n      <div style=\"font-family: Arial, sans-serif; line-height: 1.6; color: #1e293b; max-width: 600px; margin: 0 auto; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden;\">\n        <div style=\"background-color: #0f172a; color: white; padding: 20px; text-align: center;\">\n          <h2 style=\"margin: 0; font-size: 18px; letter-spacing: 0.5px;\">APPLICATION ROUTIÈRE ARP — BUREAU D’ÉTUDES</h2>\n          <p style=\"margin: 5px 0 0 0; font-size: 12px; color: #94a3b8;\">Guide Cerema ARP (Édition Août 2022)</p>\n        </div>\n        <div style=\"padding: 24px;\">\n          <h3 style=\"color: #0f172a; margin-top: 0;\">Nouvelle demande d’accès utilisateur</h3>\n          <p>Bonjour M. l'Administrateur,</p>\n          <p>Un ingénieur ou collaborateur vient de créer un compte et sollicite l'accès aux modules de calculs routiers :</p>\n          \n          <table style=\"width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 13px;\">\n            <tr style=\"border-bottom: 1px solid #e2e8f0;\">\n              <td style=\"padding: 8px 0; color: #64748b; font-weight: bold; width: 140px;\">Nom complet :</td>\n              <td style=\"padding: 8px 0; color: #0f172a; font-weight: bold;\">Ingénieur Test</td>\n            </tr>\n            <tr style=\"border-bottom: 1px solid #e2e8f0;\">\n              <td style=\"padding: 8px 0; color: #64748b; font-weight: bold;\">Adresse e-mail :</td>\n              <td style=\"padding: 8px 0; color: #0f172a;\">test@etudes.fr</td>\n            </tr>\n            <tr style=\"border-bottom: 1px solid #e2e8f0;\">\n              <td style=\"padding: 8px 0; color: #64748b; font-weight: bold;\">Identifiant :</td>\n              <td style=\"padding: 8px 0; color: #0f172a;\">itest</td>\n            </tr>\n            <tr style=\"border-bottom: 1px solid #e2e8f0;\">\n              <td style=\"padding: 8px 0; color: #64748b; font-weight: bold;\">Bureau / Organisme :</td>\n              <td style=\"padding: 8px 0; color: #0f172a;\">BET Test</td>\n            </tr>\n            <tr>\n              <td style=\"padding: 8px 0; color: #64748b; font-weight: bold;\">Statut initial :</td>\n              <td style=\"padding: 8px 0; color: #b45309; font-weight: bold;\">En attente de validation</td>\n            </tr>\n          </table>\n\n          <div style=\"text-align: center; margin: 30px 0;\">\n            <a href=\"https://ais-dev-fpsbukxv2mulj2z2xfs52r-32263270254.us-west1.run.app?module=admin-users\" style=\"background-color: #0f172a; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-size: 13px; font-weight: bold; display: inline-block;\">\n              Accéder au panneau d'administration pour valider\n            </a>\n          </div>\n          <p style=\"font-size: 12px; color: #64748b;\">Conformément à la politique de sécurité, cet utilisateur n'aura accès à aucun calcul ni module tant que vous n'aurez pas approuvé son inscription.</p>\n        </div>\n      </div>\n    ",
+      "sentAt": "2026-10-13T12:11:42.797Z",
+      "status": "OUTBOX_SIMULATED",
+      "actionType": "ADMIN_APPROVAL_REQUEST"
+    }
+  ],
+  "activityLogs": [
+    {
+      "id": "act-1791974408780-d6f2",
+      "timestamp": "2026-10-14T10:40:08.781Z",
+      "type": "STATUS_CHANGE",
+      "userEmail": "dupont@consulting.fr",
+      "userName": "Consultant Dupont",
+      "details": "Compte supprimé définitivement par le super-administrateur"
+    },
+    {
+      "id": "act-1791974405314-4ccc",
+      "timestamp": "2026-10-14T10:40:05.314Z",
+      "type": "STATUS_CHANGE",
+      "userEmail": "dupont@consulting.fr",
+      "userName": "Consultant Dupont",
+      "details": "Statut modifié en \"APPROVED\""
+    },
+    {
+      "id": "act-1791974397777-c4e7",
+      "timestamp": "2026-10-14T10:39:57.777Z",
+      "type": "REGISTER",
+      "userEmail": "dupont@consulting.fr",
+      "userName": "Consultant Dupont",
+      "details": "Demande d’accès (Expert) soumise à validation administrateur"
+    },
+    {
+      "id": "act-1791974385412-599e",
+      "timestamp": "2026-10-14T10:39:45.412Z",
+      "type": "PASSWORD_RESET",
+      "userEmail": "youcefyoucefbelallia@gmail.com",
+      "userName": "Administrateur Principal",
+      "details": "Mot de passe modifié avec succès et session activée"
+    },
+    {
+      "id": "act-1791974382710-fcf0",
+      "timestamp": "2026-10-14T10:39:42.710Z",
+      "type": "PASSWORD_RESET_REQUEST",
+      "userEmail": "youcefyoucefbelallia@gmail.com",
+      "userName": "Administrateur Principal",
+      "details": "Lien de réinitialisation généré (valide 1h)"
+    },
+    {
+      "id": "act-1791974379195-7037",
+      "timestamp": "2026-10-14T10:39:39.195Z",
+      "type": "LOGIN",
+      "userEmail": "checchec387@gmail.com",
+      "userName": "Administrateur Principal",
+      "details": "Connexion réussie via le portail administrateur"
+    },
+    {
+      "id": "act-1791974375584-792b",
+      "timestamp": "2026-10-14T10:39:35.584Z",
+      "type": "PASSWORD_RESET",
+      "userEmail": "checchec387@gmail.com",
+      "userName": "Administrateur Principal",
+      "details": "Mot de passe modifié avec succès et session activée"
+    },
+    {
+      "id": "act-1791974372604-8290",
+      "timestamp": "2026-10-14T10:39:32.604Z",
+      "type": "PASSWORD_RESET_REQUEST",
+      "userEmail": "checchec387@gmail.com",
+      "userName": "Administrateur Principal",
+      "details": "Lien de réinitialisation généré (valide 1h)"
+    },
+    {
+      "id": "act-1791974368903-2bee",
+      "timestamp": "2026-10-14T10:39:28.903Z",
+      "type": "LOGIN_FAILED",
+      "userEmail": "youcefyoucefbelallia@gmail.com",
+      "userName": "Administrateur Principal",
+      "details": "Tentative de connexion administrateur : mot de passe erroné"
+    },
+    {
+      "id": "act-1791974363251-99c2",
+      "timestamp": "2026-10-14T10:39:23.252Z",
+      "type": "LOGIN_FAILED",
+      "userEmail": "checchec387@gmail.com",
+      "userName": "Administrateur Principal",
+      "details": "Tentative de connexion administrateur : mot de passe erroné"
+    },
+    {
+      "id": "act-1791973706681-c2a4",
+      "timestamp": "2026-10-14T10:28:26.681Z",
+      "type": "LOGIN_FAILED",
+      "userEmail": "youcefbelallia@gmail.com ",
+      "details": "Tentative de connexion : identifiant inconnu"
+    },
+    {
+      "id": "act-1791973679671-9391",
+      "timestamp": "2026-10-14T10:27:59.671Z",
+      "type": "LOGIN",
+      "userEmail": "youcefyoucefbelallia@gmail.com",
+      "userName": "Administrateur Principal",
+      "details": "Connexion réussie via le portail administrateur"
+    },
+    {
+      "id": "act-1791972087688-8b2e",
+      "timestamp": "2026-10-14T10:01:27.688Z",
+      "type": "LOGIN",
+      "userEmail": "youcefyoucefbelallia@gmail.com",
+      "userName": "Administrateur Principal",
+      "details": "Connexion réussie via le portail administrateur"
+    },
+    {
+      "id": "act-1791972059414-64cd",
+      "timestamp": "2026-10-14T10:00:59.414Z",
+      "type": "REGISTER",
+      "userEmail": "youcefbelalia@gmail.com",
+      "userName": "youcef",
+      "details": "Demande d’inscription utilisateur soumise à validation"
+    },
+    {
+      "id": "act-1791971958543-ea55",
+      "timestamp": "2026-10-14T09:59:18.543Z",
+      "type": "PASSWORD_RESET",
+      "userEmail": "youcefyoucefbelallia@gmail.com",
+      "userName": "Administrateur Principal",
+      "details": "Mot de passe modifié avec succès et session activée"
+    },
+    {
+      "id": "act-1791971933964-7a73",
+      "timestamp": "2026-10-14T09:58:53.964Z",
+      "type": "PASSWORD_RESET_REQUEST",
+      "userEmail": "youcefyoucefbelallia@gmail.com",
+      "userName": "Administrateur Principal",
+      "details": "Lien de réinitialisation généré (valide 1h)"
+    },
+    {
+      "id": "act-1791971601471-9b90",
+      "timestamp": "2026-10-14T09:53:21.471Z",
+      "type": "PASSWORD_RESET",
+      "userEmail": "checchec387@gmail.com",
+      "userName": "Administrateur Principal",
+      "details": "Mot de passe modifié avec succès et session activée"
+    },
+    {
+      "id": "act-1791971596748-1ecc",
+      "timestamp": "2026-10-14T09:53:16.748Z",
+      "type": "PASSWORD_RESET_REQUEST",
+      "userEmail": "checchec387@gmail.com",
+      "userName": "Administrateur Principal",
+      "details": "Lien de réinitialisation généré (valide 1h)"
+    },
+    {
+      "id": "act-1791971589605-00a4",
+      "timestamp": "2026-10-14T09:53:09.605Z",
+      "type": "LOGIN",
+      "userEmail": "youcefyoucefbelallia@gmail.com",
+      "userName": "Administrateur Principal",
+      "details": "Connexion réussie via le portail administrateur"
+    },
+    {
+      "id": "act-1791971581362-5ad3",
+      "timestamp": "2026-10-14T09:53:01.362Z",
+      "type": "LOGIN",
+      "userEmail": "checchec387@gmail.com",
+      "userName": "Administrateur Principal",
+      "details": "Connexion réussie via le portail administrateur"
+    },
+    {
+      "id": "act-1791971553858-fc2f",
+      "timestamp": "2026-10-14T09:52:33.858Z",
+      "type": "LOGIN_FAILED",
+      "userEmail": "checchec387@gmail.com",
+      "userName": "Administrateur Principal",
+      "details": "Tentative de connexion administrateur : mot de passe erroné"
+    },
+    {
+      "id": "act-1791894843023-ac8f",
+      "timestamp": "2026-10-13T12:34:03.023Z",
+      "type": "LOGIN_FAILED",
+      "userEmail": "test@etudes.fr",
+      "userName": "Ingénieur Test",
+      "details": "Tentative de connexion administrateur : mot de passe erroné"
+    },
+    {
+      "id": "act-1791894839514-6789",
+      "timestamp": "2026-10-13T12:33:59.514Z",
+      "type": "LOGIN_FAILED",
+      "userEmail": "youcefyoucefbelallia@gmail.com",
+      "userName": "Administrateur Principal",
+      "details": "Tentative de connexion administrateur : mot de passe erroné"
+    }
+  ]
+}
